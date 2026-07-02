@@ -50,7 +50,113 @@
 
 </div>
 
-<script src="app.js"></script>
+<script sr<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reto Ahorro Fin de Año</title>
+
+    <meta name="theme-color" content="#16a34a">
+    <meta name="description" content="Aplicación para registrar y controlar tu reto de ahorro.">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="encabezado">
+    <h1>💰 Reto Ahorro Fin de Año</h1>
+    <p>Construye tu meta peso a peso.</p>
+</header>
+
+<main class="contenedor">
+
+    <section class="tarjeta">
+        <h2>🎯 Meta</h2>
+
+        <div class="meta">
+            <span id="metaTexto">$5.000.000</span>
+        </div>
+
+        <button id="btnMeta">
+            Cambiar meta
+        </button>
+    </section>
+
+
+    <section class="tarjeta resumen">
+
+        <div class="dato">
+            <h3>Ahorrado</h3>
+            <p id="ahorrado">$0</p>
+        </div>
+
+        <div class="dato">
+            <h3>Restante</h3>
+            <p id="restante">$5.000.000</p>
+        </div>
+
+        <div class="progreso">
+
+            <div class="barra">
+                <div id="barraProgreso"></div>
+            </div>
+
+            <p id="porcentaje">
+                0%
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="tarjeta">
+
+        <h2>📅 Calendario de ahorro</h2>
+
+        <div id="calendario" class="calendario">
+
+        </div>
+
+    </section>
+
+
+    <section class="tarjeta">
+
+        <h2>📊 Estadísticas</h2>
+
+        <div class="estadisticas">
+
+            <div>
+                <strong>Días registrados</strong>
+                <p id="dias">0 / 365</p>
+            </div>
+
+            <div>
+                <strong>Promedio diario</strong>
+                <p id="promedio">$0</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+        Versión 1.0 • Creado por Uber Mosquera
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
