@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💰 Reto de Ahorro Fin de Año</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>💰 Reto de Ahorro Fin de Año</h1>
+    <p>Cada sobre te acerca a tu meta.</p>
+</header>
+
+<section class="dashboard">
+
+    <div class="card">
+        <h2>Meta</h2>
+        <h3>$5.050.000</h3>
+    </div>
+
+    <div class="card">
+        <h2>Ahorrado</h2>
+        <h3 id="total">$0</h3>
+    </div>
+
+    <div class="card">
+        <h2>Progreso</h2>
+
+        <progress
+            id="barra"
+            value="0"
+            max="100">
+        </progress>
+
+        <p id="porcentaje">
+            0%
+        </p>
+
+    </div>
+
+</section>
+
+<h2>Mis Sobres</h2>
+
+<div id="sobres">
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
